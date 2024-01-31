@@ -1,7 +1,7 @@
 import "./about.css"
 import AboutImg from "../../assets/about5.jpg"
 import Info from "./Info";
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/n.pdf"
 
 const About = () => {
     return (
