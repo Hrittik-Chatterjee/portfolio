@@ -1,7 +1,7 @@
 import "./about.css"
 import AboutImg from "../../assets/about5.jpg"
 import Info from "./Info";
-import CV from "../../assets/n.pdf"
+// import CV from "../../assets/cv.pdf"
 
 const About = () => {
     return (
@@ -14,7 +14,7 @@ const About = () => {
                 <div className="about__data">
                     <Info></Info>
                     <p className="about__description">I am a MERN stack developer. I love creating dynamic and responsive web applications. I’m a huge fan of Juventus and I love listening to rock and metal songs. My favorite band is Warfaze. I’ve developed several web applications using MERN stack that are both user-friendly and visually appealing. I’m always eager to learn new technologies and I’m constantly striving to improve my skills.</p>
-                    <a download="" href={CV} className="button button--flex"> Download CV
+                    {/* <a download="" href={CV} className="button button--flex"> Download CV
                     <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const About = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </section>
