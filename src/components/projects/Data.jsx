@@ -1,4 +1,4 @@
-import Nextflix from "../../assets/nextflix.webp";
+import Nextflix from "../../assets/nextflix.jpg";
 import TicketWeb from "../../assets/TicketWeb.webp";
 import Project3 from "../../assets/project3.webp";
 
