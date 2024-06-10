@@ -1,31 +1,32 @@
 import Nextflix from "../../assets/nextflix.jpg";
-import TicketWeb from "../../assets/TicketWeb.webp";
-import Project3 from "../../assets/project3.webp";
+import CaseCraftopia from "../../assets/casecraftopia.avif";
+import NinjaDevQuiz from "../../assets/ninjadev.jpg";
 
 export const projectsData = [
   {
-    id: 1,
-    image: Nextflix,
-    title: "Nextflix Project",
-    category: "A",
-    live: "https://nextflixproject.vercel.app/",
-    source: "https://github.com/Hrittik-Chatterjee/nextflix",
+    id: 3,
+    image: CaseCraftopia,
+    title: "Case Craftopia",
+    category: "React",
+    live: "https://casecraftopia.netlify.app/",
+    source: "https://github.com/Hrittik-Chatterjee/case-craftopia",
   },
+  {
+    id: 1,
+    image: NinjaDevQuiz,
+    title: "Ninja Dev",
+    category: "React",
+    live: "https://ninjadevquiz.netlify.app/",
+    source: "https://github.com/Hrittik-Chatterjee/Ninja-dev-quiz",
+  },
+
   {
     id: 2,
-    image: TicketWeb,
-    title: "Ticket Website",
-    category: "B",
-    live: "https://ticketingwebapp.vercel.app/",
-    source: "https://github.com/Hrittik-Chatterjee/ticketingwebapp",
-  },
-  {
-    id: 3,
-    image: Project3,
-    title: "Project 3",
-    category: "C",
-    live: "#",
-    source: "3",
+    image: Nextflix,
+    title: "Nextflix Project",
+    category: "Next",
+    live: "https://nextflixproject.vercel.app/",
+    source: "https://github.com/Hrittik-Chatterjee/nextflix",
   },
 ];
 
@@ -34,12 +35,12 @@ export const projectsNav = [
     name: "All",
   },
   {
-    name: "A",
+    name: "React",
   },
   {
-    name: "B",
+    name: "Next",
   },
   {
-    name: "C",
+    name: "Others",
   },
 ];
