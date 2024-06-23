@@ -22,7 +22,11 @@ const About = () => {
             keen interest in current affairs, geopolitics, history, and
             obviously technology.
           </p>
-          <a download="" href="/CV.pdf" className="button button--flex">
+          <a
+            download=""
+            href="/HrittikChatterjeeResume.pdf"
+            className="button button--flex"
+          >
             {" "}
             Download CV
             <svg
