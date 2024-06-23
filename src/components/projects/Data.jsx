@@ -1,6 +1,7 @@
 import Nextflix from "../../assets/nextflix.jpg";
 import CaseCraftopia from "../../assets/casecraftopia.avif";
 import NinjaDevQuiz from "../../assets/ninjadev.jpg";
+import PlatePal from "../../assets/paltepal.png";
 
 export const projectsData = [
   {
@@ -16,7 +17,7 @@ export const projectsData = [
     image: NinjaDevQuiz,
     title: "Ninja Dev",
     category: "React",
-    live: "https://ninjadevquiz.netlify.app/",
+    live: "https://ninjadevquiz.netlify.app",
     source: "https://github.com/Hrittik-Chatterjee/Ninja-dev-quiz",
   },
 
@@ -25,8 +26,16 @@ export const projectsData = [
     image: Nextflix,
     title: "Nextflix Project",
     category: "Next",
-    live: "https://nextflixproject.vercel.app/",
+    live: "https://nextflixproject.vercel.app",
     source: "https://github.com/Hrittik-Chatterjee/nextflix",
+  },
+  {
+    id: 4,
+    image: PlatePal,
+    title: "Plat pal",
+    category: "React",
+    live: "https://platepalsocial.netlify.app",
+    source: "https://github.com/Hrittik-Chatterjee/plate-pal",
   },
 ];
 
