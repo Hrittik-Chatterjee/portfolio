@@ -5,12 +5,12 @@ import PlatePal from "../../assets/paltepal.png";
 
 export const projectsData = [
   {
-    id: 3,
-    image: CaseCraftopia,
-    title: "Case Craftopia",
+    id: 1,
+    image: PlatePal,
+    title: "Plat pal",
     category: "React",
-    live: "https://casecraftopia.netlify.app/",
-    source: "https://github.com/Hrittik-Chatterjee/case-craftopia",
+    live: "https://plate-pal-social.vercel.app",
+    source: "https://github.com/Hrittik-Chatterjee/plate-pal",
   },
   {
     id: 2,
@@ -20,6 +20,14 @@ export const projectsData = [
     live: "https://ninja-dev-quiz.vercel.app",
     source: "https://github.com/Hrittik-Chatterjee/Ninja-dev-quiz",
   },
+  {
+    id: 3,
+    image: CaseCraftopia,
+    title: "Case Craftopia",
+    category: "React",
+    live: "https://casecraftopia.netlify.app/",
+    source: "https://github.com/Hrittik-Chatterjee/case-craftopia",
+  },
 
   {
     id: 2,
@@ -28,14 +36,6 @@ export const projectsData = [
     category: "Next",
     live: "https://nextflixproject.vercel.app",
     source: "https://github.com/Hrittik-Chatterjee/nextflix",
-  },
-  {
-    id: 1,
-    image: PlatePal,
-    title: "Plat pal",
-    category: "React",
-    live: "https://plate-pal-social.vercel.app",
-    source: "https://github.com/Hrittik-Chatterjee/plate-pal",
   },
 ];
 
