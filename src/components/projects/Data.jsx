@@ -13,11 +13,11 @@ export const projectsData = [
     source: "https://github.com/Hrittik-Chatterjee/case-craftopia",
   },
   {
-    id: 1,
+    id: 2,
     image: NinjaDevQuiz,
     title: "Ninja Dev",
     category: "React",
-    live: "https://ninjadevquiz.netlify.app",
+    live: "https://ninja-dev-quiz.vercel.app",
     source: "https://github.com/Hrittik-Chatterjee/Ninja-dev-quiz",
   },
 
@@ -30,11 +30,11 @@ export const projectsData = [
     source: "https://github.com/Hrittik-Chatterjee/nextflix",
   },
   {
-    id: 4,
+    id: 1,
     image: PlatePal,
     title: "Plat pal",
     category: "React",
-    live: "https://platepalsocial.netlify.app",
+    live: "https://plate-pal-social.vercel.app",
     source: "https://github.com/Hrittik-Chatterjee/plate-pal",
   },
 ];
