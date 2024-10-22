@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif; /* Change font for better appearance */
+  background-color: #f5f5f5; /* Light gray background for the whole page */
+}
+
+.admin-portal {
+  max-width: 600px;
+  margin: 50px auto; /* Center the portal with some top margin */
+  padding: 30px; /* Increased padding for better spacing */
+  border: 1px solid #000; /* Black border */
+  border-radius: 8px; /* Slightly rounder corners */
+  background-color: #fff; /* White background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slightly heavier shadow for depth */
+}
+
+.admin-portal h1 {
+  text-align: center;
+  margin-bottom: 30px; /* More space below the heading */
+  color: #000; /* Black text */
+  font-size: 24px; /* Increased font size for the heading */
+}
+
+.admin-portal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-portal label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333; /* Dark gray text for better contrast */
+}
+
+.admin-portal input {
+  padding: 12px; /* Increased padding for better click area */
+  margin-bottom: 20px; /* More space between inputs */
+  border: 1px solid #000; /* Black border for inputs */
+  border-radius: 5px;
+  color: #000; /* Black text inside inputs */
+  background-color: #fff; /* White background for inputs */
+  transition: border 0.3s; /* Smooth transition for border on focus */
+  width: 100%; /* Make inputs full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.admin-portal input:focus {
+  border: 1px solid #007bff; /* Blue border when focused */
+  outline: none; /* Remove default outline */
+}
+
+.admin-portal button {
+  padding: 12px; /* Increased padding */
+  background-color: #000; /* Black background for button */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Slightly larger font size */
+  transition: background-color 0.3s; /* Smooth transition for background on hover */
+}
+
+.admin-portal button:hover {
+  background-color: #444; /* Dark gray background on hover */
+}
+
+.admin-portal select {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+}
