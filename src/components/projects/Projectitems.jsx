@@ -6,7 +6,7 @@ import { HiOutlineArrowSmRight } from "react-icons/hi";
 // eslint-disable-next-line react/prop-types
 const ProjectItems = ({ item }) => {
   return (
-    <div className="project__card" key={item.id}>
+    <div className="project__card" key={item._id}>
       <img className="project__img" src={item.image} alt="" />
       <h3 className="project__title">{item.title}</h3>
 
