@@ -1,14 +1,13 @@
 import { FaUser, FaLock } from "react-icons/fa";
 import useAuth from "../hooks/useAuth";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
 const AdminLogin = () => {
   const { signIn, user } = useAuth();
   const navigate = useNavigate();
- 
 
-  const from =  "/adminportal";
+  const from = "/adminportal";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -16,8 +15,6 @@ const AdminLogin = () => {
     const form = e.target;
     const email = form.email.value;
     const password = form.password.value;
-
-    console.log(email, password);
 
     await signIn(email, password);
   };
