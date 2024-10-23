@@ -4,7 +4,7 @@ import About from "../components/about/About";
 import Contact from "../components/contact/Contact";
 
 import Home from "../components/home/Home";
-import Portfolio from "../components/projects/Portfolio";
+// import Portfolio from "../components/projects/Portfolio";
 
 import ScrollUp from "../components/scrollup/ScrollUp";
 
@@ -18,8 +18,8 @@ const MainPage = () => {
         <Home></Home>
         <About></About>
         <Skills></Skills>
-
-        <Portfolio></Portfolio>
+        {/* 
+        <Portfolio></Portfolio> */}
 
         <Contact></Contact>
       </main>
