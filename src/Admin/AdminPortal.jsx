@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./AdminPortal.css"; // Import the updated CSS file
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { Bounce } from "react-toastify";
 
 const AdminPortal = () => {
   const [project, setProject] = useState({
@@ -42,7 +45,17 @@ const AdminPortal = () => {
           live: "",
           source: "",
         });
-        alert("Project added successfully!");
+        toast("🦄 Project Successfully Added!", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+          transition: Bounce,
+        });
       } else {
         throw new Error("Failed to add project");
       }
