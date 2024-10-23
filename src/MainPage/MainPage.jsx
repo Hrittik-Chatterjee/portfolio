@@ -9,6 +9,7 @@ import Home from "../components/home/Home";
 import ScrollUp from "../components/scrollup/ScrollUp";
 
 import Header from "../components/header/Header";
+import Portfolio from "../components/projects/Portfolio";
 
 const MainPage = () => {
   return (
@@ -18,8 +19,8 @@ const MainPage = () => {
         <Home></Home>
         <About></About>
         <Skills></Skills>
-        {/* 
-        <Portfolio></Portfolio> */}
+
+        <Portfolio></Portfolio>
 
         <Contact></Contact>
       </main>

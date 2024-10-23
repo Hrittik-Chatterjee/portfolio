@@ -1,5 +1,4 @@
-// import Projects from './Projects';
-// import Projects from "./Projects";
+import Projects from "./Projects";
 import "./projects.css";
 
 const Portfolio = () => {
@@ -8,7 +7,7 @@ const Portfolio = () => {
       <h2 className="section__title">Portfolio</h2>
       <span className="section__subtitle">Recent Projects</span>
 
-      {/* <Projects /> */}
+      <Projects />
     </section>
   );
 };
