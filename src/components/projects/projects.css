@@ -91,6 +91,13 @@
   }
 }
 
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
 @media screen and (max-width: 768px) {
   .project__container {
     grid-template-columns: max-content;

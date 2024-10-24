@@ -1,23 +1,28 @@
 import { useEffect, useState } from "react";
 import Projectitems from "./Projectitems";
+import RingLoader from "react-spinners/RingLoader";
 
 const Projects = () => {
   const [item, setItem] = useState({ name: "All" });
   const [projects, setProjects] = useState([]);
   const [allProjects, setAllProjects] = useState([]);
   const [active, setActive] = useState(0);
+  const [loading, setLoading] = useState(true); // Add loading state
 
   useEffect(() => {
     const fetchProjects = async () => {
       try {
+        setLoading(true); // Start loading
         const response = await fetch(
           "https://portfolio-backend-rnzt.onrender.com/projects"
         );
         const data = await response.json();
         setAllProjects(data);
         setProjects(data);
+        setLoading(false); // Stop loading when data is fetched
       } catch (error) {
         console.error("Error fetching projects:", error);
+        setLoading(false); // Stop loading if there's an error
       }
     };
 
@@ -57,11 +62,19 @@ const Projects = () => {
           );
         })}
       </div>
-      <div className="project__container container grid">
-        {projects.map((project) => {
-          return <Projectitems item={project} key={project._id} />;
-        })}
-      </div>
+
+      {/* Display the RingLoader while loading */}
+      {loading ? (
+        <div className="loader">
+          <RingLoader size={60} color={"#000000"} loading={loading} />
+        </div>
+      ) : (
+        <div className="project__container container grid">
+          {projects.map((project) => {
+            return <Projectitems item={project} key={project._id} />;
+          })}
+        </div>
+      )}
     </div>
   );
 };
