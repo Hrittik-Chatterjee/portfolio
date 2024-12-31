@@ -24,7 +24,7 @@ const About = () => {
           </p>
           <a
             download=""
-            href="/HrittikChatterjeeResume.pdf"
+            href="/HrittikChatterjeeFrontEndDeveloperResume.pdf"
             className="button button--flex"
           >
             {" "}
